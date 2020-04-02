@@ -1,0 +1,99 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.flex{
+  display: flex;
+}
+.heading{
+  margin-bottom: -5px;
+}
+.searchbar{
+  border-radius: 25px;
+  height: 35px;
+  background-color: lightgrey;
+  border-style: none;
+  padding-left: 10px;
+}
+.btn-hover.color-2 {
+  background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+* {
+  box-sizing: border-box;
+}
+
+.buttons {
+  margin: 10%;
+  text-align: center;
+}
+
+.btn-hover {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 35px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 10px;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+  background-position: 100% 0;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+}
+thead{
+  background-color: lightgrey;
+}
